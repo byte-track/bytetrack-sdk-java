@@ -8,7 +8,7 @@ import com.alibaba.fastjson.JSONObject;
  * @description
  */
 public class SignUtil {
-    public static String buildTradeSign(String body, String secureKey, String nonce, String timestamp, String appKey) {
-        return Md5.md5Digest(body + secureKey + nonce + timestamp + appKey).toLowerCase();
+    public static String buildTradeSign(String body, String secureKey, String nonce, String timestamp) {
+        return Md5.md5Digest(body + secureKey + nonce + timestamp).toLowerCase();
     }
 }

@@ -15,7 +15,7 @@ public class OpenApiRes {
     private String nonce;
     private JSONObject params;
     private String timestamp;
-    private String appKey;
+    private String apiKey;
 
     public String getNoticeId() {
         return noticeId;
@@ -49,12 +49,12 @@ public class OpenApiRes {
         this.params = params;
     }
 
-    public String getAppKey() {
-        return appKey;
+    public String getApiKey() {
+        return apiKey;
     }
 
-    public void setAppKey(String appKey) {
-        this.appKey = appKey;
+    public void setApiKey(String apiKey) {
+        this.apiKey = apiKey;
     }
 
 
@@ -66,12 +66,12 @@ public class OpenApiRes {
         this.timestamp = timestamp;
     }
 
-    public OpenApiRes(String noticeId, String userId, String nonce, JSONObject params, String appKey) {
+    public OpenApiRes(String noticeId, String userId, String nonce, JSONObject params, String apiKey) {
         this.noticeId = noticeId;
         this.userId = userId;
         this.nonce = nonce;
         this.params = params;
-        this.appKey = appKey;
+        this.apiKey = apiKey;
     }
 
     @Override
@@ -81,7 +81,7 @@ public class OpenApiRes {
                 ", userId='" + userId + '\'' +
                 ", nonce='" + nonce + '\'' +
                 ", params=" + params +
-                ", appKey='" + appKey + '\'' +
+                ", apiKey='" + apiKey + '\'' +
                 '}';
     }
 }
