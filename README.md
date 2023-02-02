@@ -19,7 +19,7 @@ openAPI接口对应的java版本sdk
 <br>implementation group: 'io.github.byte-track', name: 'bytetrack-server-sdk', version: '1.0.1'
 
 # 源码下载
-- 下载地址：git@github.com:byte-track/bytetrack-sdk-android.git
+- 下载地址：git@github.com:byte-track/bytetrack-sdk-java.git
 - 编译源码并安装到本地maven仓库：mvn -Dmaven.test.skip=true clean install
 
 # 开始使用
