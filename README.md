@@ -23,4 +23,4 @@ openAPI接口对应的java版本sdk
 - 编译源码并安装到本地maven仓库：mvn -Dmaven.test.skip=true clean install
 
 # 开始使用
-- 具体用法：参考bytesTrack-server-sdk/src/test/BytetrackTest.java方法，也可参考bytetrack开发者文档
+- 具体用法：参考bytesTrack-server-sdk/src/test/BytetrackTest.java方法，也可参考[bytetrack开发者文档](https://docs.bytetrack.cn/180/developers/wikidetail?articleId=o3BiCuaNDM&usageGroupId=-1&usageCategoryId=401)
