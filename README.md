@@ -19,5 +19,5 @@ openAPI接口对应的java版本sdk
 - 下载地址：git@github.com:byte-track/bytetrack-sdk-android.git
 - 编译源码并安装到本地maven仓库：mvn -Dmaven.test.skip=true clean install
 
-#开始使用
+# 开始使用
 - 具体用法：参考bytesTrack-server-sdk/src/test/BytetrackTest.java方法，也可参考bytetrack开发者文档
